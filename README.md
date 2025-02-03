@@ -48,6 +48,7 @@ The goal of this project is to:
 
 - Use k-means clustering to group similar products based on their embeddings.
 - Determine the optimal number of clusters using the Elbow Method and Silhouette Score.
+ - <img src="Elbow_graph.png" width="70%" height="60%">
   - <img src="clustered_data_set.png" width="70%" height="60%">
 
 
@@ -55,7 +56,7 @@ The goal of this project is to:
 
 - Use PCA to reduce the dimensionality of embeddings for visualization.
 - Plot the clusters in a 2D space using Plotly.
-  
+  - <img src="2D_visualize_clusters.png" width="70%" height="60%">
 
 ### **7️⃣ Generating Recommendations**
 
@@ -71,8 +72,8 @@ The goal of this project is to:
 
 ### **🚀 Live Demo**
 You can explore the live demo of this project here:
-Open In Colab
-Link:
+[Open In Colab
+Link:](https://colab.research.google.com/github/tarunkv169/Products-Recommender-System-using_PySpark-OpenAI/blob/main/Machine_Learning_with_PySpark_Recommender_System.ipynb)
 
 ### **Future Scope**
 Incorporate user demographics and product categories for more personalized recommendations.
