@@ -27,42 +27,49 @@ The goal of this project is to:
 - (free) SentenceTransformer: Vector Embedding
 
 - Matplotlib and Plotly: For data visualization.
-
+  
+---
 ### **2️⃣ Loading Data with PySpark**
 
 - Load the dataset into a PySpark DataFrame.
 - Perform initial data exploration.
-
+  
+---
 ### **3️⃣ Data Preprocessing**
 
 - Combine product titles and descriptions into a single column for text processing.
 - Convert the combined text into a list for further processing.
-
+  
+---
 ### **4️⃣ Text Embedding with sentence_transformers/OpenAI**
 
 - (paid) Use OpenAI's text-embedding-3-small model to convert text into numerical embeddings.
 - - (free) Use sentence_transformers all-MiniLM-L6-v2 model to convert text into numerical embeddings.
 - Store embeddings in a PySpark DataFrame.
-
+  
+---
 ### **5️⃣ Clustering Products with K-Means**
 
 - Use k-means clustering to group similar products based on their embeddings.
 - Determine the optimal number of clusters using the Elbow Method and Silhouette Score.
- - <img src="Elbow_graph.png" width="70%" height="60%">
-  - <img src="clustered_data_set.png" width="70%" height="60%">
+ - <img src="Elbow_graph.png" width="50%" height="50%">
+ 
+  - <img src="clustered_data_set.png" width="50%" height="50%">
 
-
+---
 ### **6️⃣ Visualizing Product Clusters**
 
 - Use PCA to reduce the dimensionality of embeddings for visualization.
 - Plot the clusters in a 2D space using Plotly.
   - <img src="2D_visualize_clusters.png" width="70%" height="60%">
-
+  
+---
 ### **7️⃣ Generating Recommendations**
 
 - Identify recently viewed products and their corresponding clusters.
 - Recommend similar products from the same clusters.
 
+---
 ### **8️⃣ Displaying Recommendations**
 
 - Display the recommended products based on the user's recently viewed items.  
