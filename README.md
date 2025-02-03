@@ -48,7 +48,7 @@ The goal of this project is to:
 
 - Use k-means clustering to group similar products based on their embeddings.
 - Determine the optimal number of clusters using the Elbow Method and Silhouette Score.
-
+  - <img src="[https://github.com/user-attachments/assets/17c0a220-4490-413a-bfe3-42ca96b31ccb](https://github.com/tarunkv169/Products-Recommender-System-using_PySpark-OpenAI/blob/main/clustered_data_set.png?raw=true)" width="70%" height="60%">
 
 
 ### **6️⃣ Visualizing Product Clusters**
